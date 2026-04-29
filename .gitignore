@@ -1,0 +1,45 @@
+# Python bytecode / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Pipeline runtime artifacts
+*.log
+*.tmp
+*.tmp.parquet
+checkpoint.json
+merge_checkpoint.json
+
+# Local data / models / outputs (generated, not source)
+/datasets/
+/models/
+/corpora/
+/out/
+/tmp/

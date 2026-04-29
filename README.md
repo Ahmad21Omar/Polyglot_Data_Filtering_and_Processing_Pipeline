@@ -1,8 +1,5 @@
 # SFT-Collection-v2 — Filtering Pipeline
 
-> Master Thesis: *Polyglot Thoughts — Synthesizing Reasoning Data for Multilingual Post-Training*
-> Ahmad Omar — TU Darmstadt, AIML Lab — Supervisors: Prof. Kersting, Lukas Helff
-
 This repository reproduces the full data-filtering pipeline behind
 **[SFT-Collection-v2](https://huggingface.co/datasets/ahmad21omar/SFT-Collection-v2)**,
 a multilingual supervised fine-tuning corpus for reasoning-capable language models.
